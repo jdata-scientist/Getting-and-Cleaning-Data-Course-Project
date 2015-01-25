@@ -1,6 +1,6 @@
 ## Code Book
 
-### Human Activiy Numbers and Descriptions
+### Human Activiy Numbers and Labels
 Activity numbers represented specific activities.
 1 - WALKING
 2 - WALKING UPSTAIRS
