@@ -3,12 +3,12 @@
 
 ##Human Activiy Numbers and Labels
 Activity numbers represent specific human activities.
-	-1-WALKING
-	-2-WALKINGUPSTAIRS
-	-3-WALKINGDOWNSTAIRS
-	-4-SITTING
-	-5-STANDING
-	-6-LAYING
+	*1-WALKING
+	*2-WALKINGUPSTAIRS
+	*3-WALKINGDOWNSTAIRS
+	*4-SITTING
+	*5-STANDING
+	*6-LAYING
 
 ##Subject
 -Subject numbers represent an individual who participated in the “Human activity recognition using smartphone” experiment. These numbers are from 1 to 30.
@@ -22,7 +22,7 @@ Activity numbers represent specific human activities.
 		If the value is a character string, then the averages were taken by Activity.
 		If the value is a number, then the averages were taken by Subject. 
 	
-	Below are the averages of the 86 feature mean and standard deviation measurements taken from the experiment.
+	Below are the averages of the 86 feature mean and standard deviation measurements taken from the experiment. The measurements were taken from a smartphone with an accelerometer and a gyroscope phone apps. It consisted of 3-axial (x,y,z) linear acceleration and 3 axial-angular velocity at a constant rate of 50Hz.
 
 	-Ave_tBodyAcc-mean()-X
 	-Ave_tBodyAcc-mean()-Y
