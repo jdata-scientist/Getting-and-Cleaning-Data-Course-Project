@@ -16,10 +16,10 @@ Below are the functions defined in the script. These functions were ordered in t
 2. read_files - It reads all data file and stores them to a table.
 3. build_datasets -This is where column names are assigned and datasets get assembled. Having column names after the tables get created helped in testing and debugging this script.
 	- Below is the sequence of building the Test and Train datasets.
-		a. combine the test activities from y_test to its corresponding activity label
-		b. add subject numbers (A subject number represents an individual who did the activity)
-		c. add features measurements (561 measurements per test activity)
-		d. add 128 readings/window for each Inertial signal
+		-a. combine the test activities from y_test to its corresponding activity label
+		-b. add subject numbers (A subject number represents an individual who did the activity)
+		-c. add features measurements (561 measurements per test activity)
+		-d. add 128 readings/window for each Inertial signal
 			body_acc_x_test
 			body_acc_y_test
 			body_acc_z_test
@@ -29,17 +29,17 @@ Below are the functions defined in the script. These functions were ordered in t
 			total_acc_x_test
 			total_acc_y_test
 			total_acc_z_test
-		e. build Training data (from steps a. to d.)
-		f. combine Test and Training data into 1 dataset
+		-e. build Training data (from steps a. to d.)
+		-f. combine Test and Training data into 1 dataset
 
 4. get average - This is where the mean and standard deviation columns get extracted from the big dataset. Then an average is computed for each of this measurement by Activity and another average is computed by Subject (an individual).
 
 	- Below are the steps done in the function:
-		a. get the column names that contain “mean” and “std” from the list of feature columns
-		b. extract the mean and standard deviation columns along with activity and subject fields from the dataset
-		c. rename measurement names into a generic name. This will be used for the average computation.
-		d. compute average for each measurement (86) by activity
-		e. compute average for each measurement (86) by subject
-		f. combine the averages by activity and subject into one dataset
-		g. rename the measurement columns with “Ave” as a prefix and with its specific feature measurement name
-		h. write the average dataset into a text file
+		-a. get the column names that contain “mean” and “std” from the list of feature columns
+		-b. extract the mean and standard deviation columns along with activity and subject fields from the dataset
+		-c. rename measurement names into a generic name. This will be used for the average computation.
+		-d. compute average for each measurement (86) by activity
+		-e. compute average for each measurement (86) by subject
+		-f. combine the averages by activity and subject into one dataset
+		-g. rename the measurement columns with “Ave” as a prefix and with its specific feature measurement name
+		-h. write the average dataset into a text file
