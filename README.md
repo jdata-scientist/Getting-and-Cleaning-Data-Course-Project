@@ -10,6 +10,8 @@ The input files came from this link:
 The full description of the data can be read here:
 	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+The data came from a series of experiments where 30 individuals (subjects) performed 6 activities (walking, walking upstairs, walking downstairs , sitting, standing and laying wearing a smartphone with a accelerometer and a gyroscope app.
+
 Below are the functions defined in the script. These functions were ordered in the sequence they run.
 
 1. run_analysis - It is the main function where the sub functions are called.
