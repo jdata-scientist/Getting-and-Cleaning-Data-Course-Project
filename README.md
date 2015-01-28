@@ -12,7 +12,7 @@ The full description of the data can be read here:
 
 The data came from a series of experiments where 30 individuals (subjects) performed 6 activities (walking, walking upstairs, walking downstairs , sitting, standing and laying wearing a smartphone with a accelerometer and a gyroscope app.
 
-Below are the functions defined in the script. These functions were ordered in the sequence they run.
+Below are the 4 parts defined in the script. These parts were ordered in the sequence they run.
 
 1. run_analysis - It is the main function where the sub functions are called.
 2. read_files - It reads all data file and stores them to a table.
